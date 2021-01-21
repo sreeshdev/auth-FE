@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+h4 {
+  font-size: 30px;
+  margin-bottom: 100px !important;
+}
+h6 {
+  color: red;
+  font-size: 22px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.inputBox {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.308);
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  margin-top: 30px;
+  width: 220px;
+  height: 40px;
+  background-color: rgba(60, 60, 150, 0.486);
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.308);
+  margin-left: auto;
+  margin-right: auto;
+}
